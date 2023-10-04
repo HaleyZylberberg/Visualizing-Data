@@ -263,6 +263,14 @@ ggp_weather
 <img src="viz_part1_files/figure-gfm/unnamed-chunk-16-1.png" width="90%" />
 
 ``` r
+ggsave("ggp_weather.pdf", ggp_weather)
+```
+
+    ## Saving 6 x 3.6 in image
+
+    ## Warning: Removed 17 rows containing missing values (`geom_point()`).
+
+``` r
 ggp_weather
 ```
 

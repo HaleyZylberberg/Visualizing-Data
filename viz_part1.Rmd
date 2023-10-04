@@ -164,6 +164,7 @@ ggp_weather =
 
 ggp_weather
 
+ggsave("ggp_weather.pdf", ggp_weather)
 
 ```
 
